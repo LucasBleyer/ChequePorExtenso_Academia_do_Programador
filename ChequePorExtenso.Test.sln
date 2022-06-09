@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChequePorExtenso.Test", "ChequePorExtenso.Test\ChequePorExtenso.Test.csproj", "{94D21312-7EB4-49DA-A54B-17081CE21E1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94D21312-7EB4-49DA-A54B-17081CE21E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D21312-7EB4-49DA-A54B-17081CE21E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D21312-7EB4-49DA-A54B-17081CE21E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D21312-7EB4-49DA-A54B-17081CE21E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E3BACE9-0BF7-43E2-828C-705B1C052919}
+	EndGlobalSection
+EndGlobal
