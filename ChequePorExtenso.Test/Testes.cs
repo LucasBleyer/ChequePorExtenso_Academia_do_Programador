@@ -35,7 +35,6 @@ namespace ChequePorExtenso.Test
             var resultadoConversao = conversor.Converter(numeroParaConversao);
 
             //Assert
-
             Assert.AreEqual(resultadoEsperado, resultadoConversao);
         }
 
