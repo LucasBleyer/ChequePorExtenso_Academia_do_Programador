@@ -54,7 +54,6 @@ namespace ChequePorExtenso.Test
 
             //Assert
             Assert.AreEqual(resultadoEsperado, resultadoConversao);
-
         }
 
         [TestMethod]
