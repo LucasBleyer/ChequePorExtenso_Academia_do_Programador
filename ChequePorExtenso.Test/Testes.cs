@@ -59,7 +59,6 @@ namespace ChequePorExtenso.Test
 
         }
 
-
         [TestMethod]
         [DataRow(1000, "Um Mil  Reais")]
         [DataRow(1005, "Um Mil e Cinco Reais")]
@@ -68,7 +67,6 @@ namespace ChequePorExtenso.Test
         [DataRow(9999, "Nove Mil Novecentos e Noventa e Nove Reais")]
         [DataRow(1100.60 , "Um Mil e Cem Reais e Sessenta Centavos")]
         [DataRow(1110.10, "Um Mil Cento e Dez Reais e Dez Centavos")]
-
 
         public void Converter_Milhares(double numero, string resultadoEsperado)
         {
