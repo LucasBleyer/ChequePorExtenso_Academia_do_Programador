@@ -51,9 +51,6 @@ namespace ChequePorExtenso.Test
             numeros.Add(900, "Novecentos");
             numeros.Add(1000, "Mil");
             numeros.Add(10000, "Milhão");
-
-
-
         }
 
 
@@ -99,7 +96,7 @@ namespace ChequePorExtenso.Test
             else
             numeroPorExtenso = "Um Real";
 
-           /////////Centavos //////////
+
 
             if (centavos != 0) {
 
@@ -140,7 +137,6 @@ namespace ChequePorExtenso.Test
 
         private void GetCentena(ref decimal numero, ref string numeroPorExtenso, ref string numeroString)
         {
-            //Pega centena
             int centena = Int32.Parse(numeroString.Substring(0, 1));
             centena = centena * 100;
 
@@ -155,7 +151,6 @@ namespace ChequePorExtenso.Test
 
         private void GetUnidadeMilhar(ref decimal numero, ref string numeroPorExtenso, ref string numeroString)
         {
-            //Pega Unidade de milhar
             int unidadeMilhar = Int32.Parse(numeroString.Substring(0, 1));
             numeroPorExtenso += numeros[unidadeMilhar] + " Mil";
 
